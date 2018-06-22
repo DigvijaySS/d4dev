@@ -31,9 +31,41 @@
         </div>
     </section>
     <!-- description text section -->
+    <section id="all-work" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center heading-h2">All I Work On</h2>
+                    <div class="separator"></div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1 col-sm-5 text-center">
+                    <canvas id="myChart" width="400px" height="400px"></canvas>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 canvas-desc text-justify">
+                    <ul>
+                        <br>
+                        <li><h4><b>60% Backend</b></h4>The amount of work I do on Backend application implementation including creation of RESTful API's. </li>
+                        <br>
+                        <li><h4><b>25% Frontend</b></h4>The amount of work I do on Frontend application development. I prefer using JQuery, Angular and Bootstrap library.</li>
+                        <br>
+                        <li><h4><b>15% AWS Cloud</b></h4>The amount of time I spend on AWS cloud server setups. Additionally I work with Revision control and CI automations.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- portfolio section -->
-    <section id="works" class="works section no-padding">
+    <section id="works" class="works section padding-bottom-0">
         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center heading-h2">Technologies I am Champ at</h2>
+                    <div class="separator"></div>
+                </div>
+            </div>
             <div class="row no-gutter">
                 <div class="col-lg-3 col-md-6 col-sm-6 work">
                     <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
@@ -133,7 +165,7 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h3>Need something specific?</h3>
-                <p>We are currently crafting new products but would love to hear from you.</p>
+                <p>I am into enhancing my technical and domain limits so would love to hear from you.</p>
                 <a href="contact.php" class="btn btn-large">Hire me</a> </div>
         </div>
     </section>
@@ -142,3 +174,48 @@
 <?php
     include_once('layouts/footer.php');
 ?>
+
+<script>
+    var inView = false;
+
+    $(document).ready(function() {
+
+        $(window).scroll(function() {
+            if (isScrolledIntoView('#myChart')) {
+                if (inView) { return; }
+                inView = true;
+                
+                var ctx = document.getElementById("myChart").getContext('2d');
+                var myPieChart = new Chart(ctx,{
+                    type: 'pie',
+                    data: {
+                        labels: ["Frontend", "Backend", "Cloud"],
+                        datasets: [{
+                            data: [25, 60, 15],
+                            backgroundColor: [
+                                '#00b7e1',
+                                '#E85452',
+                                '#94D293'
+                            ]
+                        }],  
+                    },
+                });
+
+            } else {
+                inView = false;  
+            }
+        });
+        
+    });
+    
+    function isScrolledIntoView(elem)
+    {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
+    }
+</script>

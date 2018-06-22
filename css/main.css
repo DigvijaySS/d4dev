@@ -367,6 +367,13 @@ ul li {
     font-weight: 700;
 }
 
+.heading-h2 {
+    color: #222222;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
 .banner-text p {
     color: #fff;
     font-size: 19px;
@@ -754,4 +761,20 @@ ul li {
     font-size: 1.875rem;
     margin-top: 20px;
     transition: .5s;
+}
+
+.separator {
+    height: 2px;
+    width: 85px;
+    margin: 40px auto 60px;
+    background-color: #222222;
+}
+
+.canvas-desc {
+    display: flex;
+    align-items: center;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0;
 }
