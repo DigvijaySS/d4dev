@@ -8,7 +8,7 @@
         ?>
         <!-- banner text -->
         <div class="container">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 padding-bottom-3em">
                 <div class="banner-text text-center">
                     <h1>Hey, I’m Digvijay</h1>
                     <p>Looking for a strategist and experienced web developer,<br> Scroll to see my work.</p>
@@ -44,14 +44,14 @@
                 <div class="col-md-4 col-md-offset-1 col-sm-5 text-center">
                     <canvas id="myChart" width="400px" height="400px"></canvas>
                 </div>
-                <div class="col-sm-6 col-sm-offset-1 canvas-desc text-justify">
+                <div class="col-sm-6 col-sm-offset-1 canvas-desc">
                     <ul>
-                        <br>
+                        <br><br>
                         <li><h4><b>60% Backend</b></h4>The amount of work I do on Backend application implementation including creation of RESTful API's. </li>
                         <br>
                         <li><h4><b>25% Frontend</b></h4>The amount of work I do on Frontend application development. I prefer using JQuery, Angular and Bootstrap library.</li>
                         <br>
-                        <li><h4><b>15% AWS Cloud</b></h4>The amount of time I spend on AWS cloud server setups. Additionally I work with Revision control and CI automations.</li>
+                        <li><h4><b>15% AWS Cloud</b></h4>The amount of time I spend on AWS cloud server setups. Additionally I work with Source Control and CI automations.</li>
                     </ul>
                 </div>
             </div>

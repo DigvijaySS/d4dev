@@ -2,18 +2,17 @@
     <footer class="section footer">
         <div class="footer-bottom">
             <div class="container">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <p>
                         <ul class="footer-share">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/digvijaysuryawanshi92" target="_blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
+                            <li><a href="https://www.facebook.com/digvijay.suryawanshi.52" target="_blank"><i class="fa fa-facebook" title="Facebook"></i></a></li>
+                            <li><a href="https://twitter.com/digvijay92" target="_blank"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+                            <li><a href="https://stackoverflow.com/users/7254394/digvjss" target="_blank"><i class="fa fa-stack-overflow" title="Stack Overflow"></i></a></li>
+                            <li><a href="https://github.com/DigvijaySS" target="_blank"><i class="fa fa-github" title="Github"></i></a></li>
                         </ul>
                     </p>
-                    <p>© 2018 All rights reserved. All Rights Reserved<br> Made with <i class="fa fa-heart pulse"></i> by <a href="#">D4Dev</a></p>
+                    <p>© 2018 All rights reserved. All Rights Reserved<br> Made with <i class="fa fa-heart pulse"></i> by <a href="index.php"><b>D4Dev</b></a></p>
                 </div>
             </div>
         </div>
