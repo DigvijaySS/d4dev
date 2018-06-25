@@ -75,6 +75,15 @@
       e.preventDefault();
       $('#map').trigger('click');
     });
+
+    // Submit contact form
+    $('#cform').submit(function(e) {
+      // e.preventDefault();
+
+      // $.ajax({
+
+      // });
+    });
   });
 
   function initMap() {

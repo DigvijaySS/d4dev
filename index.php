@@ -11,7 +11,7 @@
             <div class="col-md-10 col-md-offset-1 padding-bottom-3em">
                 <div class="banner-text text-center">
                     <h1>Hey, I’m Digvijay</h1>
-                    <p>Looking for a strategist and experienced web developer,<br> Scroll to see my work.</p>
+                    <p>Looking for a strategist and experienced web developer,<br> Scroll to see what I do.</p>
                     <!-- banner text -->
                 </div>
                 <div class="text-center">

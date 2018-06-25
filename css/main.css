@@ -818,6 +818,10 @@ ul li {
     margin-right: auto;
 }
 
+.pin:hover {
+    background-color: #3D3D3D;
+}
+
 #map {
     width: 400px;
     height: 400px;

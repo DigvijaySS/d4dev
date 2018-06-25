@@ -27,6 +27,7 @@
     <script src="js/retina.min.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
