@@ -39,7 +39,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "digvj1992@gmail.com";
+$address = "digvijay@webiqon.com";
 
 
 // Configuration option.
@@ -79,6 +79,6 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 } else {
 
-	echo 'ERROR!';
+	echo 'Sorry! I am unable to serve you now. ';
 
 }

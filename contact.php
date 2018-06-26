@@ -48,6 +48,8 @@
             <p class="pin"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
           </a>
           <br>
+          <small>Pune, India<br>411045</small>
+          <br><br>
         </div>
       </div>
       <!--contact form end--> 
