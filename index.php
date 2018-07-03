@@ -11,11 +11,11 @@
             <div class="col-md-10 col-md-offset-1 padding-bottom-3em">
                 <div class="banner-text text-center">
                     <h1>Hey, I’m Digvijay</h1>
-                    <p>Looking for a strategist and experienced web developer,<br> Scroll to see what I do.</p>
+                    <p>Are you looking for a strategist and experienced web application developer?<br> Scroll down to see what I do.</p>
                     <!-- banner text -->
                 </div>
                 <div class="text-center">
-                    <a href="contact.php" class="btn btn-larg">HIRE ME</a>
+                    <a href="contact" class="btn btn-larg">HIRE ME</a>
                 </div>
             </div>
         </div>
@@ -49,9 +49,9 @@
                         <br><br>
                         <li><h4><b>60% Backend</b></h4>The amount of work I do on Backend application implementation including creation of RESTful API's. </li>
                         <br>
-                        <li><h4><b>25% Frontend</b></h4>The amount of work I do on Frontend application development. I prefer using JQuery, Angular and Bootstrap library.</li>
+                        <li><h4><b>25% Infrastructure</b></h4>The amount of time I spend on AWS infrastructure. Additionally I work with Source Control and CI automations.</li>
                         <br>
-                        <li><h4><b>15% AWS Cloud</b></h4>The amount of time I spend on AWS cloud server setups. Additionally I work with Source Control and CI automations.</li>
+                        <li><h4><b>15% Frontend</b></h4>The amount of work I do on Frontend application development. I prefer using JQuery, Angular and Bootstrap library.</li>
                     </ul>
                 </div>
             </div>
@@ -166,7 +166,7 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h3>Need something specific?</h3>
                 <p>I am into enhancing my technical and domain limits so would love to hear from you.</p>
-                <a href="contact.php" class="btn btn-large">Hire me</a> </div>
+                <a href="contact" class="btn btn-large">Hire me</a> </div>
         </div>
     </section>
     <!-- hire me section -->
@@ -189,9 +189,9 @@
                 var myPieChart = new Chart(ctx,{
                     type: 'pie',
                     data: {
-                        labels: ["Frontend", "Backend", "Cloud"],
+                        labels: ["Backend", "Infrastructure", "Frontend"],
                         datasets: [{
-                            data: [25, 60, 15],
+                            data: [60, 25, 15],
                             backgroundColor: [
                                 '#00b7e1',
                                 '#E85452',

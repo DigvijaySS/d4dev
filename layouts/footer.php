@@ -12,7 +12,7 @@
                             <li><a href="https://github.com/DigvijaySS" target="_blank"><i class="fa fa-github" title="Github"></i></a></li>
                         </ul>
                     </p>
-                    <p>© 2018 All rights reserved. All Rights Reserved<br> Made with <i class="fa fa-heart pulse"></i> by <a href="index.php"><b>D4Dev</b></a></p>
+                    <p>© 2018 All rights reserved. All Rights Reserved<br> Made with <i class="fa fa-heart pulse"></i> by <a href="/"><b>D4Dev</b></a></p>
                 </div>
             </div>
         </div>

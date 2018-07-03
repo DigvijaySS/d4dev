@@ -713,6 +713,8 @@ ul li {
     font-style: normal;
     border: #dddddd 1px solid;
     font-size: 13px;
+    height: inherit !important;
+    border-radius: 0% !important;
 }
 
 .conForm input.noMarr {

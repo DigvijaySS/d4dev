@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 
 if(!$_POST) exit;
 
@@ -14,18 +15,34 @@ $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">You must enter your name.</div>';
+	echo json_encode([
+		"status" => "fail",
+		"message" => "You must enter your name",
+		"field" => "name"
+	]);
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo json_encode([
+		"status" => "fail",
+		"message" => "Please enter a valid email address.",
+		"field" => "email"
+	]);
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">You have entered an invalid e-mail address. Please try again.</div>';
+	echo json_encode([
+		"status" => "fail",
+		"message" => "You have entered an invalid e-mail address. Please try again.",
+		"field" => "email"
+	]);
 	exit();
 }
 
 if(trim($comments) == '') {
-	echo '<div class="error_message">Please enter your message.</div>';
+	echo json_encode([
+		"status" => "fail",
+		"message" => "Please enter your message.",
+		"field" => "comments"
+	]);
 	exit();
 }
 
@@ -33,27 +50,11 @@ if(get_magic_quotes_gpc()) {
 	$comments = stripslashes($comments);
 }
 
-
-// Configuration option.
-// Enter the email address that you want to emails to be sent to.
-// Example $address = "joe.doe@yourdomain.com";
-
-//$address = "example@example.net";
-$address = "digvijay@webiqon.com";
-
-
-// Configuration option.
-// i.e. The standard subject will appear as, "You've been contacted by John Doe."
-
-// Example, $e_subject = '$name . ' has contacted you via Your Website.';
-
+// Enter the email address that you want to emails to be sent to
+$address = "d4dev@webiqon.com";
 $e_subject = 'You have been contacted by ' . $name . '.';
 
-
-// Configuration option.
-// You can change this if you feel that you need to.
-// Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
-
+// Configuration option
 $e_body = "You have been contacted by $name. Their additional message is as follows." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 $e_reply = "You can contact $name via email, $email";
@@ -67,18 +68,15 @@ $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 if(mail($address, $e_subject, $msg, $headers)) {
-
-	// Email has sent successfully, echo a success page.
-
-	echo "<fieldset>";
-	echo "<div id='success_page'>";
-	echo "<h3>Email Sent Successfully.</h3>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
-	echo "</div>";
-	echo "</fieldset>";
-
+	// Email has sent successfully, echo a success page
+	echo json_encode([
+		"status" => "success",
+		"message" => "It won't take much time to revert back!"
+	]);
 } else {
-
-	echo 'Sorry! I am unable to serve you now. ';
-
+	echo json_encode([
+		"status" => "fail",
+		"message" => "Sorry! I am unable to serve you now.",
+		"field" => "unknown"
+	]);
 }
