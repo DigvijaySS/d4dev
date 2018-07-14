@@ -35,7 +35,7 @@
 			<p>I am strong software developer and connected with huge community of geeks from around the world. So, that's why, none of the work is impossible for me. I have my public profiles over stackoverflow, github and linkedIn but private profile over bitbucket which shows my activeness and my positive recommendations. Every work that comes my way I always try to get that done with best practices, which defines me.</p>
 			<br>
 			<p><b>Background knowledge: </b>I have been using the following technologies for quite some time now: PHP, Laravel, CodeIgnitor, Yii, Node JS, Javascript, JQuery, Angular, ASP.NET, HTML5, CSS3, REST APIs, Express JS, MongoDB and many more... I have been working on AWS cloud platform significantly. As they say, work for the best prepare for the worst, here's GIT comes in play and I am damn user of it.</p>
-			<p>If you have any thoughts or have an proposal of your idea or even want to have a little fun talk, just drop me a short message to me from contact page.</p>
+			<p>If you have any thoughts or have an proposal of your idea or even want to have a little fun talk, just drop me a short message from contact page.</p>
 			<br>
 			<p>That being said, thank you once again and hope to see you around!</p>
 			<br>

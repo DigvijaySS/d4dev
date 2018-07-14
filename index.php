@@ -68,92 +68,113 @@
             </div>
             <div class="row no-gutter">
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-1.jpg" class="work-box"> <img class="img-responsive" src="images/work-1.jpg" alt="Laravel">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-1.jpg" alt="Laravel">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>Laravel</h5>
-                                <p>PHP MVC Framework</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>Laravel</h5>
+                                    <p>Laravel is a free, open-source PHP MVC framework</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-2.jpg" class="work-box"> <img class="img-responsive" src="images/work-2.jpg" alt="CodeIgniter">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-2.jpg" alt="CodeIgniter">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>CodeIgniter</h5>
-                                <p>PHP MVC Framework</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>CodeIgniter</h5>
+                                    <p>CodeIgniter is an open-source software rapid development PHP MVC framework.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-3.jpg" class="work-box"> <img class="img-responsive" src="images/work-3.jpg" alt="JQuery">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-3.jpg" alt="JQuery">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>JQuery</h5>
-                                <p>Most used javascript library</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>JQuery</h5>
+                                    <p>jQuery is a cross-platform JavaScript library helps to simplify the client-side scripting.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-4.jpg" class="work-box"> <img class="img-responsive" src="images/work-4.jpg" alt="">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-4.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>Project Name</h5>
-                                <p>Graphic Design</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>PHP</h5>
+                                    <p>Server-side scripting language designed for Web development.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-5.jpg" class="work-box"> <img class="img-responsive" src="images/work-5.jpg" alt="">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-5.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>Project Name</h5>
-                                <p>Website Design</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>GIT</h5>
+                                    <p>VCS for tracking changes in files and coordinating work on those files among multiple people.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-6.jpg" class="work-box"> <img class="img-responsive" src="images/work-6.jpg" alt="">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-6.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>Project Name</h5>
-                                <p>Logo Design</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>MySQL</h5>
+                                    <p>The most robust open-source relational database management system.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-7.jpg" class="work-box"> <img class="img-responsive" src="images/work-7.jpg" alt="">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-7.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>Project Name</h5>
-                                <p>Branding</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>AWS Infrastructure</h5>
+                                    <p>The world's most leading cloud platform by Amazon. It provides on-demand cloud computing platforms.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
                 </div>
                 <div class="col-sm-3 col-xs-6 work">
-                    <a href="images/work-8.jpg" class="work-box"> <img class="img-responsive" src="images/work-8.jpg" alt="">
+                    <a href="javascript:void();" class="work-box"> <img class="img-responsive" src="<?php echo BASEURL; ?>assets/images/work-8.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-caption">
-                                <h5>Project Name</h5>
-                                <p>Website Design</p>
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <h5>Node JS</h5>
+                                    <p>Open-source, cross-platform JavaScript run-time environment that executes code outside the browser.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- overlay -->
                     </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <button type="button" class="many-more-button"> And many more... </button>
                 </div>
             </div>
         </div>

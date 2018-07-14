@@ -1,7 +1,7 @@
 <header id="header">
     <!-- navigation section  -->
     <div class="header-content clearfix">
-        <a class="logo" href="#"><img src="<?php echo BASEURL; ?>assets/images/logo.png" alt="Brand logo" height="40px" width="150px"></a>
+        <a class="logo" href="<?php echo BASEURL; ?>"><img src="<?php echo BASEURL; ?>assets/images/logo.png" alt="Brand logo" height="40px" width="150px"></a>
         <nav class="navigation" role="navigation">
             <ul class="primary-nav">
                 <li><a href="<?php echo BASEURL; ?>about"><b>About Me</b></a></li>
