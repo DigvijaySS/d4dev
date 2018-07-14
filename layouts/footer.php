@@ -12,7 +12,7 @@
                             <li><a href="https://github.com/DigvijaySS" target="_blank"><i class="fa fa-github" title="Github"></i></a></li>
                         </ul>
                     </p>
-                    <p>© 2018 All rights reserved. All Rights Reserved<br> Made with <i class="fa fa-heart pulse"></i> by <a href="/"><b>D4Dev</b></a></p>
+                    <p>© 2018 All rights reserved. All Rights Reserved<br> Made with <i class="fa fa-heart pulse"></i> by <a href="<?php echo BASEURL; ?>"><b>D4Dev</b></a></p>
                 </div>
             </div>
         </div>
@@ -21,14 +21,14 @@
 
     <!-- JS FILES -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/retina.min.js"></script>
-    <script src="js/modernizr.js"></script>
+    <script src="<?php echo BASEURL; ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo BASEURL; ?>assets/js/jquery.fancybox.pack.js"></script>
+    <script src="<?php echo BASEURL; ?>assets/js/jquery.waypoints.min.js"></script>
+    <script src="<?php echo BASEURL; ?>assets/js/retina.min.js"></script>
+    <script src="<?php echo BASEURL; ?>assets/js/modernizr.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo BASEURL; ?>assets/js/main.js"></script>
 </body>
 
 </html>

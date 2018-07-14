@@ -1,10 +1,11 @@
 <?php
-	include_once('layouts/header.php');
+  	include_once(__DIR__.'/config/web.php');
+	include_once(__DIR__.'/layouts/header.php');
 ?>
 <!-- header section -->
 <section class="innerbanner" role="banner">
   <?php
-		include_once('layouts/nav.php');
+		include_once(__DIR__.'/layouts/nav.php');
 	?>
     
   <!-- banner text -->
@@ -26,13 +27,13 @@
       <!--contact form start-->
       <div class="col-sm-6 conForm">
         <div id="message" class="text-left"></div>
-        <form method="post" action="php/contact.php" name="cform" id="cform">
+        <form method="post" action="<?php echo BASEURL; ?>modules/mailer/sendContactMeEmail.php" name="cform" id="cform">
           <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 input" placeholder="Your name..." >
           <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr input" placeholder="Email Address..." >
           <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 input" placeholder="Project Details..."></textarea>
           <button type="submit" id="submit" name="send" class="submitBnt">
             Send <i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i>&nbsp;
-            <img class="submit-loader" src="images/ajax-loader.gif" style="width:20px; height:20px; display:none;">
+            <img class="submit-loader" src="<?php echo BASEURL; ?>assets/images/ajax-loader.gif" style="width:20px; height:20px; display:none;">
           </button>
           <div id="simple-msg"></div>
         </form>
@@ -65,7 +66,7 @@
 </div>
 
 <?php
-    include_once('layouts/footer.php');
+    include_once(__DIR__.'/layouts/footer.php');
 ?>
 
 <script async defer
@@ -85,11 +86,12 @@
     $('#cform').submit(function(e) {
       e.preventDefault();
       
-      $('#cform .input').css('border', '#dddddd 1px solid');
+	  var submitUrl = $('#cform').attr('action');
+	  $('#cform .input').css('border', '#dddddd 1px solid');
       $('#cform #submit').attr('disabled', 'disabled');
       $('.submit-loader').show();
       $.ajax({
-        url: "php/contact.php",
+        url: submitUrl,
         method: "POST",
         data: {
           name: $('#name').val(),
@@ -97,7 +99,9 @@
           comments: $('#comments').val()
         },
         success: function(response) {
-          console.log(response);
+
+		console.log(response);
+          	response = JSON.parse(response);
           $('#cform #submit').removeAttr('disabled');
           $('.submit-loader').hide();
           if(response.status == 'success') {

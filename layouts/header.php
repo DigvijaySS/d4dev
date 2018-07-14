@@ -22,13 +22,13 @@
     <meta name="twitter:url" content="https://www.webiqon.com" />
     <meta name="twitter:card" content="" />
 
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="<?php echo BASEURL; ?>favicon.png"/>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/animate.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 

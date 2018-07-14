@@ -1,10 +1,11 @@
 <?php
-	include_once('layouts/header.php');
+	include_once(__DIR__.'/config/web.php');
+	include_once(__DIR__.'/layouts/header.php');
 ?>
 <!-- header section -->
 <section class="innerbanner" role="banner">
 	<?php
-		include_once('layouts/nav.php');
+		include_once(__DIR__.'/layouts/nav.php');
 	?>
   	<!-- banner text -->
   	<div class="container">
@@ -20,7 +21,7 @@
 <!-- description text section -->
 <section id="inner-description" class="section inner-description">
   	<div class="container">
-		<div class="col-md-10 col-md-offset-1 text-center"> <img src="images/developer-pic.jpg" alt="Digvijay">
+		<div class="col-md-10 col-md-offset-1 text-center"> <img src="<?php echo BASEURL; ?>assets/images/developer-pic.jpg" alt="Digvijay">
 			<h1>Digvijay</h1>
 			<p>Backend Developer/ Technical architect</p>
 			<div class="separator"></div>
@@ -46,5 +47,5 @@
 <!-- description text section --> 
 
 <?php
-    include_once('layouts/footer.php');
+    include_once(__DIR__.'/layouts/footer.php');
 ?>

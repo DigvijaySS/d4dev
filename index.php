@@ -1,10 +1,11 @@
 <?php
-    include_once('layouts/header.php');
+    include_once(__DIR__.'/config/web.php');
+    include_once(__DIR__.'/layouts/header.php');
 ?>
     <!-- header section -->
     <section class="banner" role="banner">
         <?php
-            include_once('layouts/nav.php');
+            include_once(__DIR__.'/layouts/nav.php');
         ?>
         <!-- banner text -->
         <div class="container">
@@ -15,7 +16,7 @@
                     <!-- banner text -->
                 </div>
                 <div class="text-center">
-                    <a href="contact" class="btn btn-larg">HIRE ME</a>
+                    <a href="<?php echo BASEURL; ?>contact" class="btn btn-larg">HIRE ME</a>
                 </div>
             </div>
         </div>
@@ -165,13 +166,13 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h3>Need something specific?</h3>
                 <p>I am into enhancing my technical and domain limits so would love to hear from you.</p>
-                <a href="contact" class="btn btn-large">Hire me</a> </div>
+                <a href="<?php echo BASEURL; ?>contact" class="btn btn-large">Hire me</a> </div>
         </div>
     </section>
     <!-- hire me section -->
     
 <?php
-    include_once('layouts/footer.php');
+    include_once(__DIR__.'/layouts/footer.php');
 ?>
 
 <script>
