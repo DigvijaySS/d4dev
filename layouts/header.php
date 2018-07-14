@@ -12,15 +12,14 @@
     <meta name="author" content="D4Dev" />
 
     <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content="Looking for web developer?" />
+    <meta property="og:title" content="Digvijay - Software Architect and Developer - Web Applications" />
     <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="https://www.webiqon.com" />
     <meta property="og:site_name" content="D4Dev" />
     <meta property="og:description" content="If you are looking for someone who can understand your business needs and execute them in a product, then you are at the right place." />
-    <!-- <meta property="og:description" content="Want to create best web application? Its not so difficult, just a click away. Hit the fat HIRE ME button and I am there at your service." /> -->
-    <meta name="twitter:title" content="Hire Best Web Developer!" />
+    <meta name="twitter:title" content="Digvijay - Software Architect and Developer - Web Applications" />
     <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
+    <meta name="twitter:url" content="https://www.webiqon.com" />
     <meta name="twitter:card" content="" />
 
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
@@ -30,7 +29,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>

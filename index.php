@@ -25,8 +25,7 @@
     <section id="descripton" class="section descripton">
         <div class="container">
             <div class="col-md-10 col-md-offset-1 text-center">
-                <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor
-                    ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet avida at eget metus.</p>
+                <p>I know, finding a right technical person for the challenging idea is not so easy, especially the person having the full stack specialization. Hopefully, I can be the right person who can design, develop and launch your challenging idea to the digital reality.</p>
             </div>
         </div>
     </section>
