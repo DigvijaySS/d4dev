@@ -39,6 +39,7 @@
 			<p>That being said, thank you once again and hope to see you around!</p>
 			<br>
 			<div class="separator"></div>
+			<p class="text-center"><i><small>CHALLENGES ARE GIFTS THAT FORCE US TO SEARCH FOR A NEW CENTER OF GRAVITY.<br>DON'T FIGHT THEM. JUST FIND A NEW WAY TO STAND.<br><small>- OPRAH WINFREY</small></small></i></p>
 		</div>
   	</div>
 </section>
