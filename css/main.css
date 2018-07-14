@@ -10,9 +10,9 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,600,700');
+@import url('//fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700');
+@import url('//fonts.googleapis.com/css?family=Noto+Sans');
 p {
     font-size: 14px;
     line-height: 22.4px;
